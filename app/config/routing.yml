@@ -1,0 +1,7 @@
+notify:
+    resource: "@NotifyBundle/Resources/config/routing.xml"
+    prefix:   /api/
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
